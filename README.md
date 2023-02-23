@@ -6,9 +6,7 @@ This is just a test page for now as the main project repo is still private
 To launch the app run the following code:
 
 ```{r}
-
 library(shiny)
 runGitHub("ExMoveApp", username = "LukeOzsanlav",
           ref = "master", subdir = "app")
-
 ```
